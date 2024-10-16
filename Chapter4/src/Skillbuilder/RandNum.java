@@ -19,8 +19,9 @@ public class RandNum {
         if (minVal >= maxVal) {
             System.out.println("Error: Minimum value must be less than maximum value.");
         } else {
-            // Display the random integer
-            System.out.println("Random integer between " + minVal + " and " + maxVal + ": " + ((minVal-maxVal+1)* MathRandom()+minVal));
+            // Generate and display the random integer
+            int randomNum = (int) (Math.random() * (maxVal - minVal + 1)) + minVal;
+            System.out.println("Random integer between " + minVal + " and " + maxVal + ": " + randomNum);
         }
 
     }
