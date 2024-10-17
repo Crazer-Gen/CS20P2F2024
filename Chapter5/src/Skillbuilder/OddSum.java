@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class OddSum {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         // Prompt user for a number
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = input.nextInt();
         
         // Initialize sum variable
         int sum = 0;
@@ -25,6 +25,6 @@ public class OddSum {
         System.out.println("Sum of odd numbers from 1 to " + number + ": " + sum);
         
         // Close the scanner
-        scanner.close();
+        input.close();
     }
 }

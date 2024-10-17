@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class NumbersSum {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         // Prompt user for a number
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = input.nextInt();
         
         // Initialize sum variable
         int sum = 0;
@@ -23,6 +23,6 @@ public class NumbersSum {
         System.out.println("Sum: " + sum);
         
         // Close the scanner
-        scanner.close();
+        input.close();
     }
 }
