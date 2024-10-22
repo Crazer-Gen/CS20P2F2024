@@ -17,7 +17,7 @@ public class Digits{
         num = input.nextInt();
         input.close();
         //Calculate the hundredsPlace
-        HS = (num/10)%100;
+        HS = (num/100)%10;
         //Calculate the tensPlace
         TS = (num/10)%10;
         //Calculate the onesPlace
@@ -29,5 +29,13 @@ public class Digits{
         //Output the onesPlace
         System.out.println("Ones: "+OS);
     }
-
 }
+/* Screen Dump
+
+Enter a three digit number: 456
+Hundreds: 4
+Tens: 5
+Ones: 6
+
+ 
+ */

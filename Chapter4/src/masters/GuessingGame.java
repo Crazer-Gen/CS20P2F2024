@@ -25,7 +25,19 @@ public class GuessingGame {
             // lose message
             System.out.println("Better luck next time");
         }
-
         input.close();
     }
 }
+/* Screen Dump
+
+Enter a number between 1 and 20: 4
+Computer's number: 10
+Player's number: 4
+Better luck next time
+
+Enter a number between 1 and 20: 12
+Computer's number: 12
+Player's number: 12
+You won!
+ 
+ */

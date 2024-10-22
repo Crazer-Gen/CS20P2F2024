@@ -43,8 +43,14 @@ public class MathTutor {
         } else {
             System.out.printf("Incorrect. The correct answer is %.2f.%n", correctAnswer);
         }
-
-
     }
 }
+/* Screen Dump
 
+Solve the following problem: 6 / 7 = 0.9
+Incorrect. The correct answer is 0.86.
+
+Solve the following problem: 10 + 9 = 19
+Correct!
+ 
+ */

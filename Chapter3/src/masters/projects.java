@@ -3,7 +3,6 @@ package masters;
 import java.util.Scanner;
 
 public class projects {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//declare variables
@@ -30,29 +29,25 @@ public class projects {
 		totalTest = ( testing / totalMinutes) * 100;
 		
 		System.out.println("");
- 
-		
 		System.out.format("%-10s %8s", "Task", "%Time\n");
 		System.out.format("%-10s %9.2f%%%n", "Designing", totalDesign);
 		System.out.format("%-10s %9.2f%%%n", "Coding", totalCode);
 		System.out.format("%-10s %9.2f%%%n", "Debugging", totalDebug);
 		System.out.format("%-10s %9.2f%%%n", "Testing",  totalTest);
-
 	}
-
 }
-/*aqui tienes para el error log el como hiciste las operaciones
- * totalMinutes = designing+coding+debugging+testing;
-totalDesign =  designing / totalMinutes;
-totalCode =  coding / totalMinutes ;
-totalDebug =  debugging / totalMinutes;
-totalTest =  testing / totalMinutes;
+/* Screen Dump
 
-tambien usamos el percentage format
-		
-		System.out.format("%-10s %8s", "Task", "%Time\n");
-		System.out.format("%-10s %9.2f%%%n", "Designing", totalDesign);
-		System.out.format("%-10s %9.2f%%%n", "Coding", totalCode);
-		System.out.format("%-10s %9.2f%%%n", "Debugging", totalDebug);
-		System.out.format("%-10s %9.2f%%%n", "Testing",  totalTest);
+Enter your total minutes for:
+Designing: 2
+Coding: 7
+Debugging: 3
+Testing: 3
+
+Task         %Time
+Designing      13.33%
+Coding         46.67%
+Debugging      20.00%
+Testing        20.00%
+ 
  */

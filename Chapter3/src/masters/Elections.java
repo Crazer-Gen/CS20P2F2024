@@ -44,5 +44,24 @@ public class Elections {
         System.out.format("%-13s %8d %9.2f%%%n", "Martinez", Martinez , pM);
         System.out.format("%-13s %8d%n", "TOTAL VOTES: ", Awbrey+Martinez);
 	}
-
 }
+/* Screen Dump
+
+Elections results for New York:
+Awbrey: 2718
+Martinez: 8174
+
+Elections results for New Jersey:
+Awbrey: 17263
+Martinez: 18723
+
+Elections results for New Jersey:
+Awbrey: 91283
+Martinez: 71892
+
+Candidate        votes percentage
+Awbrey          111264     52.97%
+Martinez         98789     47.03%
+TOTAL VOTES:    210053
+ 
+ */

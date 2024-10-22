@@ -41,4 +41,28 @@ public class QuadraticEcuations {
     }
 }
 
+/* Screen Dump
 
+Here we calculate for you any quadratic formula!
+Enter a value for a: 2
+Enter a value for b: -5
+Enter a value for c: 9
+The equation has no real roots.
+
+Here we calculate for you any quadratic formula!
+Enter a value for a: 1
+Enter a value for b: 9
+Enter a value for c: 3
+The roots are real and different.
+Root 1: -0.34668806854096257
+Root 2: -8.653311931459037
+
+Here we calculate for you any quadratic formula!
+Enter a value for a: 3
+Enter a value for b: 6
+Enter a value for c: 3
+The root is real and the same.
+Root: -1.0
+
+ 
+ */
