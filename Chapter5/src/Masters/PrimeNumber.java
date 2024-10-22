@@ -46,5 +46,12 @@ public class PrimeNumber {
         return true;
     }
 }
+/* Screen Dump
 
+Enter the first number: 5
+Enter the second number: 37
+Prime numbers between 5 and 37:
+5 7 11 13 17 19 23 29 31 37 
+ 
+ */
 

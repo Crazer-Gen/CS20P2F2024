@@ -40,9 +40,14 @@ public class GroupAssignement {
             return;
         }
 
-        // Mostrar el resultado
+        // Display the message
         System.out.println("Hi " +FName+ " " +LName+ ", you're in group " + group + ".");
 
 	}
-
 }
+/* Screen Dump
+Enter your first name: Daniel
+Enter your last name: Mercado
+Hi Daniel Mercado, you're in group 2.
+ 
+ */

@@ -59,4 +59,17 @@ public class GuessingGame {
         input.close();
     }
 }
+/* Screen Dump
 
+Guess the number between 1 and 20!
+Enter a number between 1 and 20: 10
+Too high! Try again.
+Enter a number between 1 and 20: 5
+Too low! Try again.
+Enter a number between 1 and 20: 8
+Too low! Try again.
+Enter a number between 1 and 20: 9
+You won! It took you 4 attempts.
+Computer's number: 9
+ 
+ */
