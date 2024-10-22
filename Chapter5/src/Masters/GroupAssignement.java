@@ -26,12 +26,22 @@ public class GroupAssignement {
 		String LName = input.nextLine();
 		input.close();
 		//get the first letter of the user's last name
-		int Go = LName.length();
-		int DetLet = Go.substring(LName-1);
-		//based on "flounln" determine the group for the user
-		switch (Go) {
-		case A
-		}
+		char FirstLetter = Character.toUpperCase(LName.charAt(0));
+		int group;
+		//based on FirstLetter determine the group for the user
+        if (FirstLetter >= 'A' && FirstLetter <= 'I') {
+            group = 1;
+        } else if (FirstLetter >= 'J' && FirstLetter <= 'S') {
+            group = 2;
+        } else if (FirstLetter >= 'T' && FirstLetter <= 'Z') {
+            group = 3;
+        } else {
+            System.out.println("Invalid last name");
+            return;
+        }
+
+        // Mostrar el resultado
+        System.out.println("Hi " +FName+ " " +LName+ ", you're in group " + group + ".");
 
 	}
 
