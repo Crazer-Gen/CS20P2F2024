@@ -21,8 +21,8 @@ public class SpanishNumbers {
             case 8: return "8 ocho";
             case 9: return "9 nueve";
             case 10: return "10 diez";
-            default: return "Número fuera de rango"; // For numbers outside 1-10
         }
+        return null;
     }
 }
 
