@@ -1,3 +1,12 @@
+/*
+Program: PrimeNumber.java    Date: October 23, 2024
+
+Purpose: check for the prime numbers between the range given by the user
+
+Author: Cesar Pena, 
+School: CHHS
+Course: Computer Programming 20
+*/
 package Masters;
 
 import java.util.Scanner;

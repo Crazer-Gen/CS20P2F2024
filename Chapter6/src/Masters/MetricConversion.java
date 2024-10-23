@@ -109,6 +109,18 @@ Metric Conversion Menu:
 Choose an option (1-8): 1
 100.0 inches = 254.0 centimeters
 
+Enter the value to convert: 32
 
+Metric Conversion Menu:
+1. Inches to Centimeters
+2. Feet to Centimeters
+3. Yards to Meters
+4. Miles to Kilometers
+5. Centimeters to Inches
+6. Centimeters to Feet
+7. Meters to Yards
+8. Kilometers to Miles
+Choose an option (1-8): 73
+Invalid choice. Please try again.
  
  */
