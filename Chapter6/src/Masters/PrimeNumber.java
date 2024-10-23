@@ -48,4 +48,11 @@ public class PrimeNumber {
         return true; // n is prime
     }
 }
+/* Screen Dump
 
+Enter the first number: 1
+Enter the second number: 10
+Prime numbers between 1 and 10:
+2 3 5 7 
+ 
+ */
