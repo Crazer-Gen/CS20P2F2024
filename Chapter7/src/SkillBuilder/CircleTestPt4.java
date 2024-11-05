@@ -28,4 +28,3 @@ public class CircleTestPt4 {
         System.out.println("\nAre customCircle and anotherCircle equal? " + customCircle.equals(anotherCircle));
     }
 }
-
